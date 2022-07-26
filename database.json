@@ -1,0 +1,329 @@
+[
+    {
+    "id": "1",
+    "Image": "Beef.png",
+    "Name": "Beef / Regular / Cooked",
+    "ServingSize": "57 grams",
+    "Calories": "142"
+    },
+    
+    {
+    "id": "2",
+    "Image": "Chicken.png",
+    "Name": "Chicken / Cooked",
+    "ServingSize": "57 grams",
+    "Calories": "136"
+    },
+    
+    {
+    "id": "3",
+    "Image": "Egg.png",
+    "Name": "Egg",
+    "ServingSize": "1 large",
+    "Calories": "78"
+    },
+    
+    {
+    "id": "4",
+    "Image": "Fish.png",
+    "Name": "Fish / Cooked",
+    "ServingSize": "57 grams",
+    "Calories": "136"
+    },
+    
+    {
+    "id": "5",
+    "Image": "Pork.png",
+    "Name": "Pork / Cooked",
+    "ServingSize": "57 grams",
+    "Calories": "137",
+    },
+
+    {
+    "id": "6",
+    "Image": "Shrimp.png",
+    "Name": "Shrimp / Cooked",
+    "ServingSize": "57 grams",
+    "Calories": "56"
+    },
+    
+    {
+    "id": "7",
+    "Image": "Bread.png",
+    "Name": "Bread / White",
+    "ServingSize": "1 slice / 28 grams",
+    "Calories": "75"
+    },
+    
+    {
+    "id": "8",
+    "Image": "Butter.png",
+    "Name": "Butter",
+    "ServingSize": "1 tablespoon",
+    "Calories": "102"
+    },
+    
+    {
+    "id": "9",
+    "Image": "CaesarSalad.png",
+    "Name": "Caesar Salad",
+    "ServingSize": "3 cups",
+    "Calories": "481"
+    },
+    
+    {
+    "id": "10",
+    "Image": "CheeseBurger.png",
+    "Name": "Cheese Burger",
+    "ServingSize": "1 sandwich",
+    "Calories": "285"
+    },
+    
+    {
+    "id": "11",
+    "Image": "Hamburger.png",
+    "Name": "Hamburger",
+    "ServingSize": "1 sandwich",
+    "Calories": "250"
+    },
+    
+    {
+    "id": "12",
+    "Image": "Pizza.png",
+    "Name": "Pizza",
+    "ServingSize": '1 slice (14\")',
+    "Calories": "285"
+    },
+    
+    {
+    "id": "13",
+    "Image": "Rice.png",
+    "Name": "Rice",
+    "ServingSize": "1 cup cooked",
+    "Calories": "206"
+    },
+    
+    {
+    "id": "14",
+    "Image": "Sandwich.png",
+    "Name": "Sandwich",
+    "ServingSize": "1 sandwich",
+    "Calories": "200"
+    },
+    
+    {
+    "id": "15",
+    "Image": "Beer.png",
+    "Name": "Beer",
+    "ServingSize": "1 can",
+    "Calories": "154"
+    },
+    
+    {
+    "id": "16",
+    "Image": "Coca-colaClassic.png",
+    "Name": "Coca-cola Classic",
+    "ServingSize": "1 can",
+    "Calories": "150"
+    },
+    
+    {
+    "id": "17",
+    "Image": "DietCoke.png",
+    "Name": "Diet Coke",
+    "ServingSize": "1 can",
+    "Calories": "0"
+    },
+    
+    {
+    "id": "18",
+    "Image": "Milk.png",
+    "Name": "Milk (Whole)",
+    "ServingSize": "1 cup",
+    "Calories": "146"
+    },
+    
+    {
+    "id": "19",
+    "Image": "OrangeJuice.png",
+    "Name": "Orange Juice",
+    "ServingSize": "1 cup",
+    "Calories": "111"
+    },
+    
+    {
+    "id": "20",
+    "Image": "AppleCider.png",
+    "Name": "Apple Cider",
+    "ServingSize": "1 cup",
+    "Calories": "117"
+    },
+    
+    {
+    "id": "21",
+    "Image": "Yogurt(low-fat).png",
+    "Name": "Yogurt (low-fat)",
+    "ServingSize": "1 cup",
+    "Calories": "154"
+    },
+    
+    {
+    "id": "22",
+    "Image": "Yogurt(non-fat).png",
+    "Name": "Yogurt (non-fat)",
+    "ServingSize": "1 cup",
+    "Calories": "110"
+    },
+    
+    {
+    "id": "23",
+    "Image": "Asparagus.png",
+    "Name": "Asparagus",
+    "ServingSize": "1 cup",
+    "Calories": "27"
+    },
+    
+    {
+    "id": "24",
+    "Image": "Broccoli.png",
+    "Name": "Broccoli",
+    "ServingSize": "1 cup",
+    "Calories": "45"
+    },
+    
+    {
+    "id": "25",
+    "Image": "Cabbage.png",
+    "Name": "Cabbage",
+    "ServingSize": "1 cup (chopped)",
+    "Calories": "22"
+    },
+    
+    {
+    "id": "26",
+    "Image": "Carrots.png",
+    "Name": "Carrots",
+    "ServingSize": "1 cup",
+    "Calories": "50"
+    },
+    
+    {
+    "id": "27",
+    "Image": "Cucumber.png",
+    "Name": "Cucumber",
+    "ServingSize": "113 grams",
+    "Calories": "17"
+    },
+    
+    {
+    "id": "28",
+    "Image": "Eggplant.png",
+    "Name": "Eggplant",
+    "ServingSize": "1 cup",
+    "Calories": "35"
+    },
+    
+    {
+    "id": "29",
+    "Image": "Lettuce.png",
+    "Name": "Lettuce",
+    "ServingSize": "1 cup",
+    "Calories": "5"
+    },
+    
+    {
+    "id": "30",
+    "Image": "Tomato.png",
+    "Name": "Tomato",
+    "ServingSize": "1 cup",
+    "Calories": "22"
+    },
+    
+    {
+    "id": "31",
+    "Image": "WaterSpinach.png",
+    "Name": "Water Spinach",
+    "ServingSize": "1 cup",
+    "Calories": "11"
+    },
+    
+    {
+    "id": "32",
+    "Image": "Apple.png",
+    "Name": "Apple",
+    "ServingSize": "1 (113 grams)",
+    "Calories": "59"
+    },
+    
+    {
+    "id": "33",
+    "Image": "Banana.png",
+    "Name": "Banana",
+    "ServingSize": "1 (170 grams)",
+    "Calories": "151"
+    },
+    
+    {
+    "id": "34",
+    "Image": "Grapes.png",
+    "Name": "Grapes",
+    "ServingSize": "1 cup",
+    "Calories": "100"
+    },
+    
+    {
+    "id": "35",
+    "Image": "Mango.png",
+    "Name": "Mango",
+    "ServingSize": "1 cup (165 grams)",
+    "Calories": "99"
+    },
+    
+    {
+    "id": "36",
+    "Image": "Orange.png",
+    "Name": "Orange",
+    "ServingSize": "1 (113 grams)",
+    "Calories": "53"
+    },
+    
+    {
+    "id": "37",
+    "Image": "Pear.png",
+    "Name": "Pear",
+    "ServingSize": "1 (142 grams)",
+    "Calories": "82"
+    },
+    
+    {
+    "id": "38",
+    "Image": "Peach.png",
+    "Name": "Peach",
+    "ServingSize": "1 (170 grams)",
+    "Calories": "67"
+    },
+    
+    {
+    "id": "39",
+    "Image": "Pineapple.png",
+    "Name": "Pineapple",
+    "ServingSize": "1 cup",
+    "Calories": "82"
+    },
+    
+    {
+    "id": "40",
+    "Image": "Strawberry.png",
+    "Name": "Strawberry",
+    "ServingSize": "1 cup",
+    "Calories": "53"
+    },
+    
+    {
+    "id": "41",
+    "Image": "Watermelon.png",
+    "Name": "Watermelon",
+    "ServingSize": "1 cup",
+    "Calories": "50"
+    }
+]
