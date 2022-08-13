@@ -1,0 +1,324 @@
+@font-face {
+  src: url('Fonts/NexaText-Trial-Black.ttf') format('truetype');
+  font-family: 'Nexa-Black' ;
+}
+
+@font-face {
+  src: url('Fonts/Nexa-Trial-Book.ttf') format('truetype');
+  font-family: 'Nexa-Book' ;
+}
+
+@font-face {
+  src: url('Fonts/NexaText-Trial-Heavy.ttf') format('truetype');
+  font-family: 'Nexa-Heavy' ;
+}
+
+@font-face {
+  src: url('Fonts/COPRGTB.TTF') format('truetype');
+  font-family: 'Corp-Bold' ;
+}
+
+@font-face {
+  src: url('Fonts/NexaText-Trial-LightItalic.ttf') format('truetype');
+  font-family: 'Nexa-LightItalic' ;
+}
+
+@font-face {
+  src: url('Fonts/GothamBook.ttf') format('truetype');
+  font-family: 'Gotham' ;
+}
+
+@font-face {
+  src: url('Fonts/NexaText-Trial-BoldItalic.ttf') format('truetype');
+  font-family: 'Nexa-BoldItalic' ;
+}
+
+@font-face {
+  src: url('Fonts/NexaText-Trial-ExtraLight.ttf') format('truetype');
+  font-family: 'Nexa-ExtraLight' ;
+}
+
+@font-face {
+  src: url('Fonts/Nexa-Trial-Book.ttf') format('truetype');
+  font-family: 'Nexa-BookN' ;
+}
+
+
+body{
+	background: white;
+	background-position: center;
+	background-size: cover;
+	background-image: fixed;
+}
+
+h3{
+	font-family: 'Nexa-Heavy';
+	color: #73A054;
+	font-size: 7vw;
+	position: absolute;
+	top: 2vw;
+	left: 38vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.p1{
+	font-family: 'Nexa-Heavy';
+	color: #73A054;
+	font-size: 4.5vw;
+	position: absolute;
+	top: 19vw;
+	left: 12vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.uname{
+	background: #F2F2F2;
+	font-family: 'Nexa-Book';
+	position: absolute;
+	height: 6.5vw;
+	width: 70vw;
+	top:31vw;
+	left:12vw;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	font-size: 3vw;
+	color: #262626;
+	padding-left: 5vw;
+
+}
+
+.p2{
+	font-family: 'Nexa-Heavy';
+	color: #73A054;
+	font-size: 4.5vw;
+	position: absolute;
+	top: 37vw;
+	left: 12vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pass{
+	background: #F2F2F2;
+	position: absolute;
+	height: 6.5vw;
+	width: 70vw;
+	top:49vw;
+	left:12vw;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	font-size: 3vw;
+	color: #262626;
+	padding-left: 5vw;
+
+}
+
+.p3{
+	font-family: 'Nexa-Heavy';
+	color: #73A054;
+	font-size: 4.5vw;
+	position: absolute;
+	top: 55vw;
+	left: 12vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.gender{
+	background: #F2F2F2;
+	position: absolute;
+	height: 6.5vw;
+	width: 70vw;
+	top:67vw;
+	left:12vw;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	font-size: 3vw;
+	color: #262626;
+	padding-left: 5vw;
+
+}
+
+.p4{
+	font-family: 'Nexa-Heavy';
+	color: #73A054;
+	font-size: 4.5vw;
+	position: absolute;
+	top: 73vw;
+	left: 12vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.age{
+	background: #F2F2F2;
+	position: absolute;
+	height: 6.5vw;
+	width: 70vw;
+	top:85vw;
+	left:12vw;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	font-size: 3vw;
+	color: #262626;
+	padding-left: 5vw;
+
+}
+
+.p5{
+	font-family: 'Nexa-Heavy';
+	color: #73A054;
+	font-size: 4.5vw;
+	position: absolute;
+	top: 91vw;
+	left: 12vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.height{
+	background: #F2F2F2;
+	position: absolute;
+	height: 6.5vw;
+	width: 70vw;
+	top:103vw;
+	left:12vw;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	font-size: 3vw;
+	color: #262626;
+	padding-left: 5vw;
+}
+
+.p6{
+	font-family: 'Nexa-Heavy';
+	color: #73A054;
+	font-size: 4.5vw;
+	position: absolute;
+	top: 109vw;
+	left: 12vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.weight{
+	background: #F2F2F2;
+	position: absolute;
+	height: 6.5vw;
+	width: 70vw;
+	top:121vw;
+	left:12vw;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	font-size: 3vw;
+	color: #262626;
+	padding-left: 5vw;
+}
+
+.RegisterB{
+	font-family: 'Nexa-Heavy';
+	background: #73A054;
+	position: absolute;
+	height: 10vw;
+	width: 75vw;
+	top:133vw;
+	left:12vw;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius:2vw;
+	border: none;
+	font-size: 3.5vw;
+	color: white;
+	outline: none;
+}
+
+.RegisterB:hover{
+	opacity: 0.7;
+}
+
+.RegisterB:active{
+	opacity: 0.7;
+}
+
+
+.h2{
+	font-family: 'Corp-Bold';
+	position: absolute;
+	color: #73A054;
+	font-size: 8vw;
+	left:10vw;
+	top: 11vw;
+	text-decoration: none;
+	background: none;
+}
+
+.h2:hover{
+	color:#93C572;
+}
+
+.h2:active{
+	color:#93C572;
+}
+
+.p11{
+	font-family: 'Nexa-LightItalic' ;
+	color: #D0CECE;
+	font-size: 2.5vw;
+	position: absolute;
+	top: 23vw;
+	left: 62vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.p22{
+	font-family: 'Nexa-LightItalic' ;
+	color: #D0CECE;
+	font-size: 2.5vw;
+	position: absolute;
+	top: 41vw;
+	left: 62vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.p33{
+	font-family: 'Nexa-LightItalic' ;
+	color: #D0CECE;
+	font-size: 2.5vw;
+	position: absolute;
+	top: 59vw;
+	left: 79vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.p55{
+	font-family: 'Nexa-LightItalic' ;
+	color: #D0CECE;
+	font-size: 2.5vw;
+	position: absolute;
+	top: 95vw;
+	left: 80vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.p66{
+	font-family: 'Nexa-LightItalic' ;
+	color: #D0CECE;
+	font-size: 2.5vw;
+	position: absolute;
+	top: 113vw;
+	left: 80vw;
+	margin-left: auto;
+	margin-right: auto;
+}

@@ -1,0 +1,35 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<title>Coca-cola Classic</title>
+	<link href='FoodLinksStyle.css' type='text/css' rel='stylesheet'/>
+	<script>
+		function home(){
+        	setTimeout(function() {window.location = "FoodList.html#Dairy	" })
+        }
+            
+ 		function calc()
+    	{
+      		var size = parseFloat(document.getElementById('size').value);
+         		document.getElementById('result').value = size*(150/1).toFixed(0);
+    	}
+
+	</script>
+</head>
+<body>
+	<p><a onclick="home()" class="h2"><</a></p>
+	<img src ="images/Coke.png" alt="Coca-cola Classic" width="350vw" height="250vw" class="pic">
+	<div id="display">
+		<h2>Coca-cola Classic</h2>
+		<p class="head">Serving Size:</p>
+		<input type="number" name="size" class="size" id="size" maxlength = "6">
+		<p class="unit">can</p>
+	</div>
+
+		<button onclick="calc()">=</button>
+        <input type="text" id="result" readonly/>
+        <p class="cal">cals</p>
+		<p class="fact">Coca-Cola, or Coke, is a carbonated soft drink manufactured by the Coca-Cola Company. Originally marketed as a temperance drink and intended as a patent medicine, it was invented in the late 19th century by John Stith Pemberton in Atlanta, Georgia.</p>
+</body>
+
+</html>

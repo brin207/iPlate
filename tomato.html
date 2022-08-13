@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tomato</title>
+	<link href='FoodLinksStyle.css' type='text/css' rel='stylesheet'/>
+	<script>
+		function home(){
+        	setTimeout(function() {window.location = "FoodList.html#Veggies" })
+        }
+            
+ 		function calc()
+    	{
+      		var size = parseFloat(document.getElementById('size').value);
+         		document.getElementById('result').value = size*(22/1).toFixed(0);
+    	}
+
+	</script>
+</head>
+<body>
+	<p><a onclick="home()" class="h2"><</a></p>
+	<img src ="images/Tomato.png" alt="Tomato" width="350vw" height="250vw" class="pic">
+	<div id="display">
+		<h2>Tomato</h2>
+		<p class="head">Serving Size:</p>
+		<input type="number" name="size" class="size" id="size" maxlength = "6">
+		<p class="unit">cup</p>
+	</div>
+
+		<button onclick="calc()">=</button>
+        <input type="text" id="result" readonly/>
+        <p class="cal">cals</p>
+		<p class="fact">The tomato is the edible berry of the plant Solanum lycopersicum, commonly known as the tomato plant. The species originated in western South America, Mexico, and Central America. The Mexican Nahuatl word tomatl gave rise to the Spanish word tomate, from which the English word tomato derived. Its domestication and use as a cultivated food may have originated with the indigenous peoples of Mexico. Tomatoes are a significant source of umami flavor. They are consumed in diverse ways: raw or cooked, and in many dishes, sauces, salads, and drinks. While tomatoes are fruits—botanically classified as berries—they are commonly used culinarily as a vegetable ingredient or side dish.</p>
+</body>
+
+</html>

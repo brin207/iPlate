@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Orange</title>
+	<link href='FoodLinksStyle.css' type='text/css' rel='stylesheet'/>
+	<script>
+		function home(){
+        	setTimeout(function() {window.location = "FoodList.html#Fruties" })
+        }
+            
+ 		function calc()
+    	{
+      		var size = parseFloat(document.getElementById('size').value);
+         		document.getElementById('result').value = size*(53/1).toFixed(0);
+    	}
+
+	</script>
+</head>
+<body>
+	<p><a onclick="home()" class="h2"><</a></p>
+	<img src ="images/Orange.png" alt="Orange" width="350vw" height="250vw" class="pic">
+	<div id="display">
+		<h2>Orange</h2>
+		<p class="head">Serving Size:</p>
+		<input type="number" name="size" class="size" id="size" maxlength = "6">
+		<p class="unit">orange/s</p>
+	</div>
+
+		<button onclick="calc()">=</button>
+        <input type="text" id="result" readonly/>
+        <p class="cal">cals</p>
+		<p class="fact">An orange is a fruit of various citrus species in the family Rutaceae (see list of plants known as orange); it primarily refers to Citrus × sinensis, which is also called sweet orange, to distinguish it from the related Citrus × aurantium, referred to as bitter orange. The sweet orange reproduces asexually (apomixis through nucellar embryony); varieties of sweet orange arise through mutations.</p>
+</body>
+
+</html>

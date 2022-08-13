@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="LoginStyle.css"/>
+    <script>
+    	var attempt = 3; // Variable to count number of attempts.
+		// Below function Executes on click of login button.
+		function validate(){
+		var username = document.getElementById("username").value;
+		var password = document.getElementById("password").value;
+		if ( username == "Admin" && password == "1234"){
+		alert ("Login successfully");
+		setTimeout(function() {window.location = "BMICalculator.html" }); // Redirecting to other page.
+		return false;
+		}
+		else{
+		attempt --;// Decrementing by one.
+		alert("Incorrect Username or Password");
+		// Disabling fields after 3 attempts.
+		if( attempt == 0){
+		document.getElementById("username").disabled = true;
+		document.getElementById("password").disabled = true;
+		document.getElementById("submit").disabled = true;
+		return false;
+		}
+		}
+		}
+    </script>
+</head>
+<body>
+	<form id="form" method="GET">
+		<h2>iPlate</h2>
+		<h1>Sign In</h1>
+		<p class="p1">Username</p>
+		<input type="text" name="username" id="username" class="uname" maxlength = "20">
+		
+		<h3>Password</h3>
+		<input type="password" name="password" id="password" class="pass" maxlength = "20">
+		<input type="submit" value="Sign In" name ='login' id="submit" onclick="validate()" class="LoginB">
+		<p class="p2">Don’t have an account yet?</p>
+		<p> 
+		<a href="SignUp.html" 
+		class="p3"> Sign Up</a>
+		</p>
+		<img class="pic1" src="images/Logo-White.png" alt="Logo-White">
+		
+	</form>
+</body>
+</html>		

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eggplant</title>
+	<link href='FoodLinksStyle.css' type='text/css' rel='stylesheet'/>
+	<script>
+		function home(){
+        	setTimeout(function() {window.location = "FoodList.html#Veggies" })
+        }
+            
+ 		function calc()
+    	{
+      		var size = parseFloat(document.getElementById('size').value);
+         		document.getElementById('result').value = size*(35/1).toFixed(0);
+    	}
+
+	</script>
+</head>
+<body>
+	<p><a onclick="home()" class="h2"><</a></p>
+	<img src ="images/Eggplant.png" alt="Eggplant" width="350vw" height="250vw" class="pic">
+	<div id="display">
+		<h2>Eggplant</h2>
+		<p class="head">Serving Size:</p>
+		<input type="number" name="size" class="size" id="size" maxlength = "6">
+		<p class="unit">cup</p>
+	</div>
+
+		<button onclick="calc()">=</button>
+        <input type="text" id="result" readonly/>
+        <p class="cal">cals</p>
+		<p class="fact">Eggplant is a plant species in the nightshade family Solanaceae. Solanum melongena is grown worldwide for its edible fruit. Most commonly purple, the spongy, absorbent fruit is used in several cuisines. Typically used as a vegetable in cooking, it is a berry by botanical definition.</p>
+</body>
+
+</html>

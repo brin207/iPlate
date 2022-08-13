@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="BMIStyle.css">
+    <title>
+        Calorie Calculator
+    </title>
+<script src="BMI.js"></script>
+</head>
+
+<body>
+<form action="Home.html">
+	<img alt="Logo" src="images/Logo-Green.png" class="Logo">
+    <h1> What is your BMI? </h1>
+	<p class="head">Know it here</p>
+    <p class="p1">Name</p>
+	<input type="text" id="name">
+    <p class="p2">Age</p>
+	<input type="number" id="age">
+	<p class="p3">Gender</p>
+	 <input type="radio" id="Male" name="gender" value="Male" checked>
+	<p class="m"> Male </p>
+	<input type="radio" id="html" name="gender" value="Female">
+	<p class="f"> Female </p>
+    <p class ="p4">Height</p>
+	<input type="number" id="h"> 
+	
+	<select id="h_measurement">
+		<option value="m"> Meter</option>
+        <option value="cm"> Cm</option>
+        <option value="f"> Feet</option>
+    </select>
+	
+	<p class="p5">Weight</p> 
+	<input type="number" id="w">
+	
+	<p class="p6">Activity</p>
+	<select name='acti' id = "act">
+		<option value=1.3>Very Light - Typical office job</option>
+		<option value=1.55 selected>Light - Any job where you mostly stand or walk</option>
+		<option value=1.65>Moderate - Jobs requiring physical activity</option>
+		<option value=1.80>Heavy - Heavy manual labor</option>
+		<option value=2.00>Very Heavy - Moderate to hard physical activity</option>
+	</select>
+	<input type="button" value="Calculate" onclick="getdata()" id="Calcu" name="Calcu">
+	<input type="reset" value="Clear" id="reset">
+	<button class="button" href="Home.html">Proceed</button>
+</form>
+<script>
+let input = document.querySelector(".input");
+let button = document.querySelector(".button");
+button.disabled = true;
+input.addEventListener("change", stateHandle);
+
+function stateHandle() {
+    if(document.querySelector(".input").value === "") {
+        button.disabled = true;
+    } else {
+        button.disabled = false;
+    }
+}
+</script>
+
+<div id="display">
+	<h2></h2>
+	<h3></h3>
+</div>
+</body>
+</html>
+

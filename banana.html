@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Banana</title>
+	<link href='FoodLinksStyle.css' type='text/css' rel='stylesheet'/>
+	<script>
+		function home(){
+        	setTimeout(function() {window.location = "FoodList.html#Fruties" })
+        }
+            
+ 		function calc()
+    	{
+      		var size = parseFloat(document.getElementById('size').value);
+         		document.getElementById('result').value = size*(151/1).toFixed(0);
+    	}
+
+	</script>
+</head>
+<body>
+	<p><a onclick="home()" class="h2"><</a></p>
+	<img src ="images/Banana.png" alt="Banana" width="350vw" height="250vw" class="pic">
+	<div id="display">
+		<h2>Banana</h2>
+		<p class="head">Serving Size:</p>
+		<input type="number" name="size" class="size" id="size" maxlength = "6">
+		<p class="unit">Banana/s</p>
+	</div>
+
+		<button onclick="calc()">=</button>
+        <input type="text" id="result" readonly/>
+        <p class="cal">cals</p>
+		<p class="fact">A banana is an elongated, edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa. In some countries, bananas used for cooking may be called "plantains", distinguishing them from dessert bananas. The fruit is variable in size, color, and firmness, but is usually elongated and curved, with soft flesh rich in starch covered with a rind, which may be green, yellow, red, purple, or brown when ripe.</p>
+</body>
+
+</html>

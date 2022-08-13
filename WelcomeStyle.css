@@ -1,0 +1,82 @@
+@font-face {
+  src: url('Fonts/NexaText-Trial-Black.ttf') format('truetype');
+  font-family: 'Nexa-Black' ;
+}
+
+@font-face {
+  src: url('Fonts/Nexa-Trial-Book.ttf') format('truetype');
+  font-family: 'Nexa-Book' ;
+}
+
+@font-face {
+  src: url('Fonts/NexaText-Trial-Heavy.ttf') format('truetype');
+  font-family: 'Nexa-Heavy' ;
+}
+
+body {
+	background: #73A054;
+	background-position: center;
+	background-size: cover;
+	background-image: url("images/Background.png");
+	background-image: fixed;
+
+}
+
+h2 {
+	font-family: 'Nexa-Black';
+	color: #FFFFFF;
+	position: absolute;
+	top: 105vw;
+	left: 40vw;
+	transform: translate(-40%, -40%);
+	font-size: 8.5vw;
+	line-height: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	white-space: nowrap;
+}
+
+h3{
+	font-family: 'Nexa-Book';
+	color: #FFFFFF;
+	position: absolute;
+	top: 130vw;
+	left: 41vw;
+	transform: translate(-40%, -50%);
+	font-size: 3.5vw;
+	line-height: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	white-space: nowrap;
+}
+
+.button{
+	height: 7vw; 
+	width: 20vw;
+	background-color: #FFFFFF;
+	border-radius: 12px;
+	border: none;
+	transition: all 0.5s;
+	text-align: center;
+	display: inline-block;
+	cursor: pointer;
+	font-family: 'Nexa-Heavy';
+	font-size: 2.5vw;
+	color: #73A054;
+	position: absolute;
+	top: 147vw;
+	left: 12vw;
+}
+
+.button:active{
+	background-color: #516B46;
+	color: #FFFFFF;
+
+}
+
+.button:hover{
+	background-color: #516B46;
+	color: #FFFFFF;
+
+}
+

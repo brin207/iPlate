@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="HomeStyle.css"/>
+	<script >
+		function fLdef(){
+			setTimeout(function() {window.location = "FoodList.html" })
+		}
+
+		function fLmeat(){
+			setTimeout(function() {window.location = "FoodList.html#Meat" })
+		}
+
+		function fLdairy(){
+			setTimeout(function() {window.location = "FoodList.html#Dairy" })
+		}
+
+		function fLveggies(){
+			setTimeout(function() {window.location = "FoodList.html#Veggies" })
+		}
+
+		function fLfruit(){
+			setTimeout(function() {window.location = "FoodList.html#Fruties" })
+			
+		}
+		
+		function SrchRed(){
+			setTimeout(function() {window.location = "SearchEngine.html" })
+		}
+	</script>
+</head>
+<body>
+
+	<label>iPlate</label>
+	
+	<a href="SearchEngine.html">
+	<img alt="Search" src="images/Search.png" class="Search">	<!--pwede yung code dito pero instead of drop down next page nalang?-->
+	</a>
+	
+	<img class="pic1" src="images/Logo-White.png" alt="Logo-White">
+	
+	<p>
+	<a href="BMICalculator.html" 
+	class="SignOut">BMI Calc</a>
+	</p>
+	
+	<p class="title"> Calorie Counter </p>
+	
+	<p class="header">Your weight loss, diet, and <br>
+	nutrition assistant.</p>
+
+	<input type="button" onClick="SrchRed()" href="SearchEngine.html" class="srchRed" value="Look for your food here.">
+
+	<div class="BottomSide"> <!--pagpependutin mag redirect sa search engine page tapos all food under that catergory lalabas(patable)-->
+		<p class="Food">Food List</p>
+		<p>
+		<a href="FoodList.html" 
+		class="SeeAll">See All</a>
+		</p>
+		<form>	
+			<button onclick="fLdef()" class="carbs" type="submit" name="Carbs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Carbs</button>
+		</form>
+		
+		<form>	
+			<button onclick="fLmeat()" class="meat" type="submit" name="Meat">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Meat</button>
+		</form>
+		
+		<form>	
+			<button onclick="fLdairy()" class="dairy" type="submit" name="Dairy">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dairy</button>
+		</form>
+		
+		<form >	
+			<button onclick="fLveggies()" class="veggies" type="submit" name="Veggies">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Veggies</button>
+		</form>
+		
+		<form >	
+			<button onclick="fLfruit()" class="fruits" type="submit" name="Fruits">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fruits</button>
+		</form>
+	</div>
+	
+		<div id="footer">
+			<a href="Home.html">
+			<img alt="Home" src="images/Home.png" class="Home">
+			</a>
+		
+			<a href="FoodList.html">
+			<img alt="FoodList" src="images/FoodList.png" class="FoodList">
+			</a>
+			
+			<a href="abt.html">
+			<img alt="AboutUs" src="images/AboutUs.png" class="AboutUs">
+			</a>
+		</div>
+</body>
+</html>

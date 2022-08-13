@@ -1,0 +1,152 @@
+@font-face {
+  src: url('Fonts/NexaText-Trial-Black.ttf') format('truetype');
+  font-family: 'Nexa-Black' ;
+}
+
+@font-face {
+  src: url('Fonts/Nexa-Trial-Book.ttf') format('truetype');
+  font-family: 'Nexa-Book' ;
+}
+
+@font-face {
+  src: url('Fonts/NexaText-Trial-Heavy.ttf') format('truetype');
+  font-family: 'Nexa-Heavy' ;
+}
+
+body{
+	background: #73A054;
+	background-position: center;
+	background-size: cover;
+	background-image: url("images/Background.png");
+	background-image: fixed;
+}
+
+.pic1{
+	height:40vw; 
+	width:40vw;
+	position: absolute;
+	left: 32vw;
+	top: 27vw;
+}
+
+h2{
+	font-family: 'Nexa-Heavy';
+	color: white;
+	font-size: 10vw;
+	position: absolute;
+	top: 51vw;
+	left: 36vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1{
+	font-family: 'Nexa-Heavy';
+	color: white;
+	font-size: 6vw;
+	position: absolute;
+	top: 73vw;
+	left: 40vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.p1{
+	font-family: 'Nexa-Heavy';
+	color: white;
+	font-size: 5vw;
+	position: absolute;
+	top: 84vw;
+	left: 15vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.uname{
+	font-family: 'Nexa-Book';
+	background: #93C572;
+	position: absolute;
+	height: 7vw;
+	width: 70vw;
+	top:96vw;
+	left:15vw;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	font-size: 4vw;
+	color: white;
+	padding-left: 5vw;
+
+}
+
+h3{
+	font-family: 'Nexa-Heavy';
+	color: white;
+	font-size: 5vw;
+	position: absolute;
+	top: 102vw;
+	left: 15vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pass{
+	background: #93C572;
+	position: absolute;
+	height: 7vw;
+	width: 70vw;
+	top:114vw;
+	left:15vw;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	font-size: 5vw;
+	color: white;
+	padding-left: 5vw;
+}
+
+.LoginB{
+	font-family: 'Nexa-Heavy';
+	background: white;
+	position: absolute;
+	height: 10vw;
+	width: 60vw;
+	top:128vw;
+	left:20vw;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius:2vw;
+	border:none;
+	font-size: 3.5vw;
+	color: #73A054;
+}
+
+.p2{
+	font-family: 'Nexa-Heavy';
+	color: white;
+	font-size: 4vw;
+	position: absolute;
+	top: 141vw;
+	left: 24vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.p3{
+	font-family: 'Nexa-Heavy';
+	color: #F6D564;
+	font-size: 3.5vw;
+	position: absolute;
+	top: 150vw;
+	left: 42vw;
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: none;
+}
+ .p3:active{
+	 text-decoration: underline;
+ }
+ 
+ .p3:hover{
+	 text-decoration: underline;
+ }

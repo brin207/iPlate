@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Apple Cider</title>
+	<link href='FoodLinksStyle.css' type='text/css' rel='stylesheet'/>
+	<script>
+		function home(){
+        	setTimeout(function() {window.location = "FoodList.html#Dairy" })
+        }
+            
+ 		function calc()
+    	{
+      		var size = parseFloat(document.getElementById('size').value);
+         		document.getElementById('result').value = size*(117/1).toFixed(0);
+    	}
+
+	</script>
+</head>
+<body>
+	<p><a onclick="home()" class="h2"><</a></p>
+	<img src ="images/AppleCider.png" alt="Apple Cider" width="350vw" height="250vw" class="pic">
+	<div id="display">
+		<h2>Apple Cider</h2>
+		<p class="head">Serving Size:</p>
+		<input type="number" name="size" class="size" id="size" maxlength = "6">
+		<p class="unit">cup</p>
+	</div>
+
+		<button onclick="calc()">=</button>
+        <input type="text" id="result" readonly/>
+        <p class="cal">cals</p>
+		<p class="fact">Apple cider (also called sweet cider, soft cider, or simply cider) is the name used in the United States and Canada for an unfiltered, unsweetened, non-alcoholic beverage made from apples. Though typically referred to simply as "cider" in the United States, it is not to be confused with the alcoholic beverage known as cider in other places, which is called "hard cider" in the US. Outside of the United States and Canada, it is commonly referred to as cloudy apple juice to distinguish it from clearer, filtered apple juice and hard cider.</p>
+</body>
+
+</html>

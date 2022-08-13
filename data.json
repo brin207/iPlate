@@ -1,0 +1,19 @@
+[
+    {
+        "username": "Rashid",
+        "password": "123",
+        "gender": "Male",
+        "age": "20",
+        "height": "177",
+        "weight": "60"
+    },
+	
+    {
+        "username": "Maxine",
+        "password": "123",
+        "gender": "F",
+        "age": "20",
+        "height": "170",
+        "weight": "60"
+    }
+]

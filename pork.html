@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pork</title>
+	<link href='FoodLinksStyle.css' type='text/css' rel='stylesheet'/>
+	<script>
+		function home(){
+        	setTimeout(function() {window.location = "FoodList.html#Meat" })
+        }
+            
+ 		function calc()
+    	{
+      		var size = parseFloat(document.getElementById('size').value);
+         		document.getElementById('result').value = size*(137/57).toFixed(0);
+    	}
+
+	</script>
+</head>	
+<body>
+	<p><a onclick="home()" class="h2"><</a></p>
+	<img src ="images/Pork.png" alt="Pork" width="350vw" height="250vw" class="pic">
+	<div id="display">
+		<h2>Pork</h2>
+		<p class="head">Serving Size:</p>
+		<input type="number" name="size" class="size" id="size" maxlength = "6">
+		<p class="unit">grams</p>
+	</div>
+
+		<button onclick="calc()">=</button>
+        <input type="text" id="result" readonly/>
+        <p class="cal">cals</p>
+		<p class="fact">Pork is the culinary name for the meat of the domestic pig (Sus scrofa domesticus). It is the most commonly consumed meat worldwide, with evidence of pig husbandry dating back to 5000 BC. It is eaten both freshly cooked and preserved; curing extends the shelf life of pork products. Ham, gammon, bacon, and sausage are examples of preserved pork. Charcuterie is the branch of cooking devoted to prepared meat products, many from pork.</p>
+</body>
+
+</html>

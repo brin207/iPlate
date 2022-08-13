@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Water Spinach</title>
+	<link href='FoodLinksStyle.css' type='text/css' rel='stylesheet'/>
+	<script>
+		function home(){
+        	setTimeout(function() {window.location = "FoodList.html#Veggies" })
+        }
+            
+ 		function calc()
+    	{
+      		var size = parseFloat(document.getElementById('size').value);
+         		document.getElementById('result').value = size*(11/1).toFixed(0);
+    	}
+
+	</script>
+</head>
+<body>
+	<p><a onclick="home()" class="h2"><</a></p>
+	<img src ="images/WaterSpinach.png" alt="Water Spinach" width="350vw" height="250vw" class="pic">
+	<div id="display">
+		<h2>Water Spinach</h2>
+		<p class="head">Serving Size:</p>
+		<input type="number" name="size" class="size" id="size" maxlength = "6">
+		<p class="unit">cup</p>
+	</div>
+
+		<button onclick="calc()">=</button>
+        <input type="text" id="result" readonly/>
+        <p class="cal">cals</p>
+		<p class="fact">Ipomoea aquatica, most widely known as kangkong (also spelled kangkung) or water spinach, is a semi-aquatic, tropical plant grown as a vegetable for its tender shoots. I. aquatica is generally believed to have been first domesticated in Southeast Asia. It is widely cultivated in Southeast Asia, East Asia, and South Asia. It grows abundantly near waterways and requires little to no care.</p>
+</body>
+
+</html>
